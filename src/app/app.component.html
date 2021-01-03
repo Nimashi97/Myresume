@@ -1,0 +1,52 @@
+<div class="container mx-auto d-block">
+  <nav class="fixed-top navbar navbar-expand-lg bg-dark navbar-dark justify-content-end pt-3" id="nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colnav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="colnav">
+    <ul class="navbar-nav">
+      <li class="nav-item mx-auto" style="padding-right: 20px;">
+        <a class="nav-link lead" id="navlink" routerLink="/">Home</a>
+      </li>
+      <li class="nav-item mx-auto"style="padding-right: 20px;">
+        <a class="nav-link lead" routerLink="/" fragment="about" id="navlink">About</a>
+      </li>
+      <li class="nav-item mx-auto"style="padding-right: 20px;">
+        <a class="nav-link lead" routerLink="/skills" id="navlink">Skills</a>
+      </li>
+      <li class="nav-item mx-auto"style="padding-right: 20px;">
+        <a class="nav-link lead" routerLink="education" id="navlink">Education & Experience</a>
+      </li>
+      <li class="nav-item mx-auto"style="padding-right: 20px;">
+        <a class="nav-link lead" routerLink="/protopolio" id="navlink">Protopolio</a>
+      </li>
+      <li class="nav-item mx-auto">
+        <a class="nav-link lead" id="navlink" routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  
+  
+  <div style="padding-top: 80px;">
+    <router-outlet></router-outlet>
+  </div>
+  </div>
+  <!-- <div class="container-fluid">
+    <div class="row mx-auto">
+      <div class="col-md-4 col-sm-12 mx-auto">
+        <img src="assets/me.jpg" class="sticky" style="width:460px; height: 100;"/>
+      </div>
+    
+    <div class="col-md-8 col-sm-12" style="margin-top: 80px; padding-left: 40px;">
+      <router-outlet></router-outlet>
+    </div>
+    </div>
+    </div> -->
+  <div class="navbar bottom navbar-expand-lg bg-dark navbar-dark justify-content-center mt-3 pt-3" id="botnav" style="height: 90px;">
+    <h3 style="margin-right: 20px; color: white;"> Nimashi Jayawickrama</h3>
+      <h6 style="color: lightslategrey;">© 2020 All rights reserved | Design by Nimashi Jayawickrama</h6>
+  </div>
+   
+   
+  

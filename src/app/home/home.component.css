@@ -1,0 +1,21 @@
+#detail
+{
+    color: white;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container-fluid
+{
+    width: inherit;
+    height: inherit;
+}
+label
+{
+    color: rgb(46, 202, 85);
+    font-weight: bolder;
+}
+#about
+{
+    font-size: large;
+   
+}
