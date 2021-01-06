@@ -4,10 +4,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-#navlink{
-    font-size: large;
-    
-}
+
 
 img.sticky{
     position: fixed;
@@ -19,7 +16,6 @@ img.sticky{
 
 .row h4 {
     color: #fff;
-    font-size: large;
     font-size: 30px;
     text-transform: uppercase;
     

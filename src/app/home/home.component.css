@@ -1,7 +1,7 @@
 #detail
 {
     color: white;
-    font-size: x-large;
+   
     
 }
 #container-fluid
@@ -13,9 +13,4 @@ label
 {
     color: rgb(46, 202, 85);
     font-weight: bolder;
-}
-#about
-{
-    font-size: large;
-   
 }
