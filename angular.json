@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "MyCV"
+  "defaultProject": "MyCV",
+  "cli": {
+    "analytics": "882792e6-6438-4943-ae95-44d067829b3c"
+  }
 }
