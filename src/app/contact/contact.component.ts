@@ -51,9 +51,12 @@ trigger('btn',[
 
 export class ContactComponent implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  
 
 }

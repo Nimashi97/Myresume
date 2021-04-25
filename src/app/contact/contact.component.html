@@ -5,11 +5,11 @@
     <h1 @listAnimation>Contact me</h1>
     <form>
         <label @bumpIn>Full Name</label>
-        <input @bumpIn type="text" placeholder="Emma John" class="form-control">
+        <input @bumpIn type="text" placeholder="Emma John" name="name" class="form-control">
         <label @bumpIn>Email</label>
-        <input @bumpIn type="email" placeholder="example@gmail.com" class="form-control">
+        <input @bumpIn type="email" name="email" placeholder="example@gmail.com" class="form-control">
         <label @bumpIn>Type your message</label>
-        <textarea @bumpIn class="form-control"></textarea>
+        <textarea @bumpIn class="form-control" name="message"></textarea>
         <br>
         <br>
         <input @bumpIn type="submit" class="btn btn-success" value="Send Message">
