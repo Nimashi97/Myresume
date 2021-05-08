@@ -1,5 +1,6 @@
 import { animate, keyframes, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import { Event } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -51,6 +52,7 @@ trigger('btn',[
 
 export class ContactComponent implements OnInit {
 
+  
   
   constructor() { }
 

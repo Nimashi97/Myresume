@@ -13,6 +13,7 @@ import { Component, OnInit } from '@angular/core';
         animate(2000)
       ])
     ]),
+    
     trigger('tbl',[
       transition('void => *',[
         
