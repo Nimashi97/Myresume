@@ -6,13 +6,15 @@ import { EducationComponent } from './education/education.component';
 import { HomeComponent } from './home/home.component';
 import { ProtopolioComponent } from './protopolio/protopolio.component';
 import { SkillsComponent } from './skills/skills.component';
+import { MyprojectsComponent } from './myprojects/myprojects.component';
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'protopolio',component:ProtopolioComponent},
   {path:'education',component:EducationComponent},
   {path:'contact',component:ContactComponent},
   {path:'skills',component:SkillsComponent},
-  {path:'',component:AboutComponent}
+  {path:'',component:AboutComponent},
+  {path:'myprojects',component:MyprojectsComponent}
 ];
 
 @NgModule({
