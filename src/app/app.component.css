@@ -3,8 +3,12 @@
 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    justify-content: center;
 }
-
+.nav-item{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 img.sticky{
     position: fixed;
